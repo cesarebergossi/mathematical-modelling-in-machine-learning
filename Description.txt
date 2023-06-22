@@ -1,0 +1,19 @@
+
+DESCRIPTION
+----------
+
+This dataset is composed of 1100 samples with 20 features each. The first column
+is the sample id. The second column in the dataset represents the label. There
+are 5 possible values for the labels. The remaining columns are numeric
+features.
+
+Your task is the following: you should compare the performance of a Support-
+Vector Machine (implemented by sklearn.svm.LinearSVC) with that of Logistic
+Regression (implemented by sklearn.linear_model.LogisticRegression). Try to
+optimize both algorithms' parameters and determine which one is best for this
+dataset. At the end of the analysis, you should have chosen an algorithm and its
+optimal set of parameters: write this choice explicitly in the conclusions of
+your notebook.
+
+Your notebook should detail the procedure you have used to choose the optimal
+parameters (graphs are a good idea when possible/sensible).
